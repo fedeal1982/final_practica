@@ -1,0 +1,84 @@
+body {
+    font-family: "Courier New", monospace;
+    background-color: #7FB3D5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#CACFD2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2, h3, label, tr {
+    text-align: center;
+    color: #010100;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #F1F38E;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #F5FABC;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#tabla-ingresos th {
+    background-color: #4CAF50;
+}
+
+#tabla-gastos th {
+    background-color: #FA2B15;
+}
+
+#total {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    font-family: "Sanvito", monospace;
+    font-size: larger;
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
